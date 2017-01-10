@@ -176,7 +176,7 @@ metadata {
         input "humidityAlert", "number", title: "Humidity reporting level", defaultValue: 50,
               description: "Minimum humidity level change to trigger updates",
               required: false, displayDuringSetup: true, range: "1..50"
-        input "illumAlert", "number", title: "Illumination reporting level", defaultValue: 0,
+        input "illumAlert", "number", title: "Illumination reporting level", defaultValue: 5,
               description: "Minumum illumination level change to trigger updates, 0 to disable",
               required: false, displayDuringSetup: true, range: "0..50"
         input "ledMode", "number", title: "LED Mode", defaultValue: 3,
